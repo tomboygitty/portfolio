@@ -2,87 +2,79 @@
 <html lang="en-us">
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>About Me</title>
-        <style>
-            h1 {
-                font-family: 'Georgia', Times, Times New Roman, serif;
-                background-color: #4aaaa5;
-                color: #ffffff;
-                width: 250px;
-                padding-top: 20px;
-                padding-right: 20px;
-                padding-bottom: 20px;
-                padding-left: 20px;
-                text-align: center;
-                margin-top: 0;
-            }
-    
-            body {
-                background-image:url("assets/images/textured_paper.png");
-                margin-top: 0;
-                margin-left: 0;
-                margin-right: 0;
-            }
-        </style>
     </head>
 
     <body>
-        <div class="wrapper">
-        <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <h1 class="name">
-                    Tom Elliott
-                </h1>
-
-                <div class="navbar">
-
-                    <a href="index.html" class="otherfont subnavbar">About</a>
-
-                    <a href="portfolio.html" class="otherfont subnavbar">Portfolio</a>
-    
-                    <a href="contact.html" class="otherfont subnavbar">Contact</a>
-
+                <a class="navbar-brand" href="index.html" id="logo">Tom Elliott</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </header>
-        <br>
-        <br>
-        <div class="container">
-            <h2 class="header2">
-                About Me
-            </h2>
-                <br>
-
-                <img src="assets/images/cat.jpg" alt="Cat" height="50" width="75">
-
-
-                    <p class="otherfont">
-                        My name is Tom Elliott and I'm from Nashville, TN. 
-                        I have lived here my whole life. I like music, 
-                        movies, video games and anime. I like to jog and 
-                        lift weights and occasionally play guitar.
-                    
-                    </p>
-                    <p class="otherfont">  
-                        I would like to visit, and possibly even live in 
-                        Japan some day. I can speak very basic Japanese.
-                        I am a fount of random pop culture knowledge and 
-                        like to play bar trivia. One of my favorite 
-                        activities is private karaoke with friends!
-                    </p>
-                    <p class="otherfont">
-                        Currently, I am studying full-stack development 
-                        through a boot camp at Vanderbilt University. I 
-                        have always enjoyed computers, technology and 
-                        programming, so I hope to use these skills to 
-                        develop a fulfilling career.
-                    </p>
+        </nav>
+        <main class="container">
+                <section class="row">
+                  <div class="col-md-8">
+                    <article class="block">
+                      <h1 class="block-header">About Me</h1>
+                      <hr />
+                      <img src="assets/images/cat.jpg" alt="" id="about-image" />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.</p>
+                      <br />
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.
+                      </p>
+                    </article>
+                  </div>
+                </section>
+              </main>
 
 
-        </div>
-            <div class="push"></div>
-        </div>
-        <footer class="footer"></footer>
+
+        </div> -->
+  <!-- Start of footer -->
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          &copy; Copyright
+        </p>
+    </footer>
+      <!-- End of footer -->
+    
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
     </body>
 
 </html>
