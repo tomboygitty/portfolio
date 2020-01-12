@@ -37,6 +37,19 @@ body {
   }
   
   /* NAV START */
+  .logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+    padding: 20px;
+  }
+
   #logo {
     font-family: Georgia, Times, "Times New Roman", serif;
   
@@ -49,7 +62,17 @@ body {
     background: #4aaaa5;
     padding: 20px;
   }
-  
+
+  .logo-left {
+    float: left;
+  }
+
+  .logo-right {
+    position: absolute;                  
+    bottom: 0;                          
+    right: 0; 
+  }
+
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
     color: #4aaaa5;
