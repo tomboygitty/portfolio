@@ -20,6 +20,27 @@ body {
     margin: 80px 0;
   }
 
+  p {
+    font-size: 24px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+  .link {
+    font-weight: bold;
+  }
+
+  a:link {
+    color:#4aaaa5
+  }
+
+  a:visited {
+    color:#4aaaa5
+  }
+
+  a:hover{
+    text-decoration: none;
+}
+
   
   /* create styles for use for all white main boxes */
   .block {
@@ -33,6 +54,12 @@ body {
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
+    font-size: 24px;
+  }
+
+  .sub-head {
+    /* Typography */
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 24px;
   }
   
@@ -61,6 +88,14 @@ body {
     /* Visual */
     background: #4aaaa5;
     padding: 20px;
+  }
+
+  a.logo-link:link {
+    color:#fff
+  }
+
+  a.logo-link:visited {
+    color:#fff
   }
 
   .logo-left {
@@ -166,7 +201,7 @@ body {
     float: left;
   
     /* Box-model */
-    width: 200px;
+    width: 230px;
     margin: 0 20px 10px 0;
   }
   /* END ABOUT-ME PAGE */
